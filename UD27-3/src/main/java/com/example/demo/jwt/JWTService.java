@@ -27,7 +27,7 @@ import java.util.function.Function;
 @NoArgsConstructor
 public class JWTService {
 
-    @Value("${spring.jwt.secret}")
+	@Value("${spring.jwt.secret}")
     private  String JWT_SECRET;
 
     @Value("${spring.jwt.jwtExpirationInMs}")

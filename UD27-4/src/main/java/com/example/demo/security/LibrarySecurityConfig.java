@@ -25,7 +25,7 @@ import com.example.demo.jwt.JWTAuthenticationFilter;
 @EnableWebSecurity
 public class LibrarySecurityConfig {
 
-    private static final String[] SECURED_URLs = {"/books/**"};
+    private static final String[] SECURED_URLs = {"/facultades/**"};
 
     private static final String[] UN_SECURED_URLs = {
             "/users/**",
